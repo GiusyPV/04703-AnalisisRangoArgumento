@@ -28,7 +28,7 @@ public final class App {
             = new Scanner(System.in, "Windows-1252")
                     .useLocale(Locale.ENGLISH).useDelimiter("\\s+");
 
-    //COnstantes Clase
+    //Constantes Clase
     public static final double NUM = 0;
     public static final double MIN = 1;
     public static final double MAX = 10;
@@ -58,13 +58,13 @@ public final class App {
         //Minimos y máximos
         System.out.printf("Mínimo ......: %.0f%n", MIN);
         System.out.printf("Máximo ......: %.0f%n", MAX);
-        
+
         //Separador
         System.out.println("---");
-        
+
         //Analisis dentro o fuera
-        String fin =  analizarRango(n, MIN, MAX);
-        
+        String fin = analizarRango(n, MIN, MAX);
+
         //Salir por pantalla dentro o fuera
         System.out.printf("Análisis ....: %s%n", fin);
 
